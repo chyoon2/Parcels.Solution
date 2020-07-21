@@ -1,5 +1,5 @@
 using System;
-using System.Collections.Generic;
+
 namespace Parcels.Models
 {
   public class Parcel
@@ -26,6 +26,5 @@ namespace Parcels.Models
     {
       return this.Volume() * 5 + Weight * 3;
     }
-
   }
 }

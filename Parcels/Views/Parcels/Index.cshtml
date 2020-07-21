@@ -1,0 +1,6 @@
+@using Parcels.Models;
+
+<p>Size of your parcel is: length - <strong>@Model.Length</strong>, height - <strong>@Model.Height</strong>, width - <strong>@Model.Width</strong></p>
+<p>Volume od your parcel: <strong>@Model.Volume()</strong></p>
+<p>The total cost of you parcel: <strong>$@Model.CostToShip()</strong></p>
+
